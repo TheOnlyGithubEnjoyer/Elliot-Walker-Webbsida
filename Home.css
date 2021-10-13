@@ -1,0 +1,8 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(77,77,80,0.7), rgba(7,22,75)), url("./Phoneimage.jpg");
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+}

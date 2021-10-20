@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(77, 77, 88, 0.7), rgb(61, 5, 66)), url("./Phoneimage.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    padding: 2.5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex:1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    background: purple;
+    display: block;
+    margin: auto;
+    height: 2px;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.paragraph h1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.paragraph h4 {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.paragraph p {  
+    padding: 15px;
+    margin: 10px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}

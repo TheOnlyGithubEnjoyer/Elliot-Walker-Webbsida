@@ -41,7 +41,7 @@ nav {
 .nav-links ul li::after {
     content: '';
     width: 0;
-    background: purple;
+    background: rgb(128, 3, 128);
     display: block;
     margin: auto;
     height: 2px;
@@ -57,11 +57,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .paragraph h4 {
-    padding: 12px;
+    padding: 10px;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;

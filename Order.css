@@ -47,7 +47,7 @@ nav {
 .nav-links ul li::after {
     content: '';
     width: 0%;
-    background: crimson;
+    background: rgb(199, 16, 53);
     display: block;
     margin: auto;
     height: 2px;

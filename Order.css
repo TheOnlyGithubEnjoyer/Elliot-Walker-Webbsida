@@ -58,3 +58,18 @@ nav {
     width: 100%;
 }
 
+.pay {
+    width: 300px;
+    margin: 3% auto;
+    line-height: 35px;
+
+}
+
+button {
+    background-color: black;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}

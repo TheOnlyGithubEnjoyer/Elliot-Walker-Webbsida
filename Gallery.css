@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-size: 100%;
+}
+.gallery {
+    margin: 10px 30px;
+  }
+  
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    border-radius: 30%;
+    width: 250px;
+    height: 25%;    
+  }
+  
+  .gallery img:hover {
+    margin-left: 1.5%;
+    opacity: 75%;
+  }     

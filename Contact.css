@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
 
 body {
     min-height: 100vh;
@@ -10,6 +13,7 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
+    font-family: 'Audiowide', cursive;
 }
 
 nav {
@@ -50,4 +54,25 @@ nav {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
+.owner{
+    text-align: center;
+}
+
+.owner img {
+    width: 550px;
+    height: 280px;
+    transition: 1s;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.owner h3{
+    text-align: center;
+    padding: 1.5%;
+}
+
+
+
 

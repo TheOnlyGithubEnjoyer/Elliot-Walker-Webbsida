@@ -55,24 +55,36 @@ nav {
     width: 100%;
 }
 
-.owner{
-    text-align: center;
+.contactpage{
+    display: flex;
+    justify-content: space-around;
 }
 
-.owner img {
-    width: 550px;
-    height: 280px;
-    transition: 1s;
-    margin: 5px;
-    padding: 2px;
-    border-radius: 50%;
+p {
+    padding: 10px;
+    margin: 2px;
+    line-height: 35px;
 }
 
-.owner h3{
-    text-align: center;
-    padding: 1.5%;
+.photo img{
+    width: 350px;
+    height: 400px;
+    border-radius: 20%;
 }
 
+.photo h3{
+    text-align:center
+}
+
+.info h3{
+    margin: 15px;
+    padding: 10px;
+}
+
+.info h4 {
+    margin: 20px;
+    padding: 5px;
+}
 
 
 

@@ -73,12 +73,12 @@ nav {
 }
 
 .paragraph p {  
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     display: block; 
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 62%;
 }
 
 .paragraph img {

@@ -65,15 +65,17 @@ nav {
 
 .pay {
     width: 400px;
-    line-height: 45px;
+    line-height: 50px;
 }
-button a {
+.button a {
     background-color: #af4c4c;
-    border: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1000px;
     color: white;
-    padding: 10px 8px;
+    margin: 2px;
+    padding: 12px 6px;
     text-decoration: none;
-    display: inline-block;
     font-size: 10px;
 }
 

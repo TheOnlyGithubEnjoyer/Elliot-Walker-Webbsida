@@ -55,7 +55,7 @@ nav {
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(77,77,80,0.7), rgb(255, 238, 0)), url("./Phoneimage.jpg");
+    background-image: linear-gradient(rgba(77,77,80,0.7), rgb(190, 178, 3)), url("./Phoneimage.jpg");
     background-position: center;
     background-size: cover;
     color: white;    
@@ -89,5 +89,9 @@ text-align: center;
 .photos{
   text-align: center;
   margin: 15px;
+}
+
+li {
+  font-size: 20px;
 }
 
